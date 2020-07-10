@@ -1,0 +1,57 @@
+﻿body {
+	font-family: arial, Helvetica, sans-serif;
+	color: gray;
+	background-color: lavender;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h2 {
+	color: #49166D;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	background-color: #CDFF9B;
+}
+ul {
+	list-style-image: url('images/aball.gif');
+}
+a {
+	text-decoration: none;
+	color: #49166D;
+}
+a:hover {
+	text-decoration: underline overline;
+	background-color: #CDFF9B;
+}
+thead {
+	color: #49166D;
+	background-color: #CDFF9B;
+}
+h3 {
+	color: #49166D;
+}
+.bottomRight { /* CSS class */
+	text-align: right;
+	vertical-align: bottom;
+}
+td {
+	vertical-align: top;
+}
+.greenRow {
+	background-color: #CDFF9B;
+}
+.whiteRow {
+	background-color: white;
+}
+table {
+	border-spacing: 0px;
+}
+#phones {
+	border: medium dotted #808080;
+}
+#copyright {
+	font-size: x-small;
+	color: gray;
+	background-color: #CDFF9B;
+}

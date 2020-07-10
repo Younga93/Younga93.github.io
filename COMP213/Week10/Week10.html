@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<!-- -->
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Week 09</title>
+<meta content="HTML form, COMP213" name="keywords">
+<meta content="Example of HTML forms." name="description">
+<link href="Week10Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+<header>
+	<h1>Centennial College - Registration Form</h1>
+</header>
+<main>
+<form action="mailto:jdoe37@my.centennialcollege.ca" method="post">
+<fieldset>	
+<legend>Personal Info:</legend>
+	<label for="txtFirstName">First Name:</label>
+		<input id="txtFirstName" name="txtFirstName" size="25" tabindex="1" type="text" required="required"><br>
+	<label for="txtLastName">Last Name:</label>
+		<input id="txtLastName"name="txtLastName" size="25" tabindex="3" type="text" required="required"><br>
+	<label for="txtEmail">Email:</label>
+		<input id="txtEmail" name="txtEmail" size="30" tabindex="5" type="email" required="required" placeholder="youraccount@gmail.com"><br>
+	<label for="txtCreatePwd">Create PWD:</label>
+		<input id="txtCreatePwd" name="txtCreatePwd" size="16" tabindex="7" type="password"><br>
+	<label for="txtConfirmPwd">Confirm PWD:</label>
+		<input id="txtConfirmPwd" name="txtConfirmPwd" size="16" tabindex="9" type="password"><br>
+	<label for="optGenderM">Gender:</label>
+		<input id="optGenderM" name="optGender" tabindex="11" type="radio" value="M">M
+		<input id="optGenderF"name="optGender" tabindex="13" type="radio" value="F">F
+		<input id="optGenderX"name="optGender" tabindex="15" type="radio" value="X">X<br>
+	<label for="txtColor">Favorite Color:</label>
+		<input id="txtColor"name="txtColor" tabindex="16" type="color"><br>
+</fieldset>
+<fieldset>
+<legend>Education Info:</legend>
+	<label for="optEdSec">Education</label>
+		<input id="optEdSec" name="optEd" tabindex="17" type="radio" value="Sec">Secondary
+		<input id="optEdCol" name="optEd" tabindex="19" type="radio" value="Col">College
+		<input id="optEdUGrad" name="optEd" tabindex="21" type="radio" value="UGrad">UGrad
+		<input id="optEdGrad" name="optEd" tabindex="23" type="radio" value="Grad">Grad
+		<input id="optEdPGrad" name="optEd" tabindex="25" type="radio" value="PGrad">PGrad<br>
+	<label for="chkOS">Computer Knowledge:</label>
+		<input id="chkOS" name="chkOS" tabindex="27" type="checkbox" value="OS">OS
+		<input name="chkNet" tabindex="29" type="checkbox" value="Net">Networking
+		<input name="chkProg" tabindex="31" type="checkbox" value="Prog">Programming
+		<input name="chkWeb" tabindex="33" type="checkbox" value="Web">Web Design
+		<input name="chkDB" tabindex="35" type="checkbox" value="DB">DB<br>
+	<label for="lstCourses">Select Courses:</label>
+		<select id="lstCourses" multiple="multiple" name="lstCourses" size="4" tabindex="37">
+			<option value="COMP100">COMP100 Programming I</option>
+			<option value="COMP125">COMP125 Client Side Development</option>
+			<option value="COMP213">COMP213 Web Interface Design</option>
+			<option value="COMP225">COMP225 Systems I</option>
+			<option value="COMP229">COMP229 Server Side Development</option>
+		</select><br>
+	<label>Start Date:</label>
+		<input name="txtStartDate" tabindex="38"type="Date"><br>
+	<label for="txtSpecialRequests">Special Requests:</label>
+		<textarea cols="50" id="txtSpecialRequests" name="txtSpecialRequests" rows="7" tabindex="39" placeholder="--Please let us know about special lerning needs you may have (closed captioning, note taking, etc.)--"></textarea><br>
+	<label><input name="btnSubmit" tabindex="41" type="submit" value="Register Now"></label>
+	<input name="btnReset" tabindex="43" type="reset" value="Clear Form">
+</fieldset>
+	</form>
+</main>
+<footer>
+<p id="copyright">&copy;&nbsp;Copyright COMP213 - Week 10</p>
+</footer>
+</div>
+</body>
+
+</html>

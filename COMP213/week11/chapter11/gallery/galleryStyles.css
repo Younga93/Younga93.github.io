@@ -1,0 +1,17 @@
+﻿#gallery {position: relative; }
+#gallery ul {list-style-type: none;
+    width: 900px; } /* 1. width를 300에서 900으로 늘려보자. 이상해짐. */
+#gallery li { display: inline; 
+     float: left;
+	 padding: 10px; }
+	 
+#gallery img {border-style: none; }
+#gallery a { text-decoration: none;
+             font-style: italic;  
+             color: #333; }
+#gallery span {display: none; }
+#gallery a:hover span {display: block;     
+position: absolute;
+top: 100px; /* 2. 1 이후에 썸네일과 큰 그림이 겹쳐지니 top을 10에서 100으로 늘렸다. > 그림 리스트 아래에 예쁘게 뜸.*/
+left: 200px; 	/* 2-1. left를 200으로 줄이니 오른쪽으로 치우쳐있던 그림이 중간에 예쁘게 뜸.*/
+text-align: center; } 

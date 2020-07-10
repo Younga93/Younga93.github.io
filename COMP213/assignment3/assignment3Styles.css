@@ -1,0 +1,59 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #485866;
+	margin-right: auto;
+	margin-left: auto;
+	width: 980px;
+	background-color: #FFFFFF;
+}
+a {
+	color: #57739A;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FF3364;
+	text-decoration: underline overline;
+}
+h4 {
+	color: #57739A;
+	background-color: #BCD5EB;
+	padding: 10px;
+	margin: auto;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: auto;
+	font-size: xx-large;
+	font-variant: small-caps;
+}
+#banner {
+	border-radius: 10px;
+}
+footer {
+	font-size: x-small;
+	color: #485866;
+}
+th {
+	color: #57739A;
+	background-color: #BCD5EB;
+}
+#priceTable {
+	border: thick double #485867;
+}
+#priceTable td {
+	border: 0.1px outset #BCD5EB;
+}
+#left {
+	text-align: right;
+}
+h5 {
+	color: #57739A;
+	margin: auto;
+	font-variant: small-caps;
+	font-size: large;
+}
+#middle {
+	text-align: center;
+}
+ul {
+	list-style-image: url('images/list_icon.png');
+}

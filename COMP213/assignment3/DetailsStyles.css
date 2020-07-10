@@ -1,0 +1,32 @@
+﻿body {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #485866;
+	margin-right: auto;
+	margin-left: auto;
+	width: 980px;
+	background-color: #FFFFFF;
+}
+h4 {
+	color: #57739A;
+	background-color: #BCD5EB;
+	padding: 10px;
+	margin: auto;
+	border-radius: 10px;
+	text-align: center;
+	vertical-align: auto;
+	box-shadow: 0px 0px 0px;
+	font-size: xx-large;
+	font-variant: small-caps;
+}
+a {
+	color: #57739A;
+	text-decoration: underline;
+}
+a:hover {
+	color: #FF3364;
+	text-decoration: underline overline;
+}
+footer {
+	font-size: x-small;
+	color: #485866;
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- Jazz collectibles, recently acquired. -->
+<?xml-stylesheet type="text/css" href="JW2.css" ?>
+
+<rare>
+<title>Rare Jazz Collectibles</title>
+<subtitle>New Offerings</subtitle>
+
+<artist>Louis Armstrong</artist>
+<record>Satchmo Serenedes</record>
+<year>1952</year>
+<label>Decca</label>
+<condition>VG+</condition>
+<priceus>$50</priceus>
+<priceuk>&#163;35</priceuk>
+
+<artist>Chris Connor</artist>
+<record>Chris Connor - Live</record>
+<year>1956</year>
+<label>Atlantic</label>
+<condition>EX++</condition>
+<priceus>$125</priceus>
+<priceuk>&#163;87.5</priceuk>
+
+<artist>Ella Fitzgerald</artist>
+<record>The Cole Porter Songbook</record>
+<year>1956</year>
+<label>Verve</label>
+<condition>EX-</condition>
+<priceus>$100</priceus>
+<priceuk>&#163;70</priceuk>
+
+<artist>George Shearing</artist>
+<record>I Hear Music</record>
+<year>1955</year>
+<label>MGM</label>
+<condition>EX</condition>
+<priceus>$100</priceus>
+<priceuk>&#163;70</priceuk>
+
+<artist>Miles Davis</artist>
+<record>The Music of Al Cohn</record>
+<year>1952</year>
+<label>Prestige</label>
+<condition>VG+</condition>
+<priceus>$175</priceus>
+<priceuk>&#163;122.50</priceuk>
+
+<message>
+<![CDATA[
+Note to Collectors: The Jazz Warehouse specializing in locating hard-to-find records &
+books. You may download an extensive catalog of our collection. If you can't find what
+you need, please contact us and we will perform search for the item(s) you specify.
+]]>
+</message>
+</rare>

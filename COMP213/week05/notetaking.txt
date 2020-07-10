@@ -1,0 +1,6 @@
+format-newstyle - Define in:New style sheet.
+
+>>CSS code is different with html code
+
+* How to connect CSS file and HTML file?
+<link href="Week05Style.css" rel="stylesheet" type="text/css">

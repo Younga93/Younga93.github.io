@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<!--Created by: Younga Jin #301055699 COMP213-003 - Created on: Nov 15, 2019-->
+<html lang="en">
+
+
+<head>
+	<meta content="en-ca" http-equiv="Content-Language">
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<title>Humber College Evaluation Form</title>
+	<meta content="COMP213, Evaluation Form, Web Interface Design" name="keywords">
+	<meta content="COMP213 Assignment 4 - College Course/Instructor Evaluation Form" name="description">
+	<link href="assignment4Styles.css" rel="stylesheet" type="text/css">
+	</head>
+
+<body>
+<div id="allPage">
+	<header>
+		<h1>
+			<a href="https://humber.ca/">
+			<img alt="Humber_Logo" src="images/Humber_Logo_Square.jpg" class="auto-style1" width="80" style="float: left"></a>
+			<span style="color:white">Humber College</span>
+			<br>Continuing Education Course/Instructor Evaluation
+		</h1>
+	</header>
+	<main>
+		<hr>
+		<h4>
+		Please read each statement carefully and consider each one individually.
+		<br>Give only one answer for each question.
+		<br> 
+		</h4>
+		<hr>
+	<form action="mailto:youngajin93@gmail.com" method="post">
+		<fieldset>
+			<label id="shortLabel" for="lstCourses">Course Name:&nbsp;</label>
+			<select id="lstCourses" name="lstCourses" tabindex="1">
+				<option value="COMM171">COMM171 - College Communications II
+				</option>
+				<option value="COMP100">COMP100 - Programming I</option>
+				<option value="COMP120">COMP120 - Software Engineering Fundament
+				</option>
+				<option value="COMP213">COMP213 - Web Interface Design</option>
+				<option value="MATH175">MATH175 - Functions & Number Systems
+				</option>
+			</select>
+			<br><label id="shortLabel" for="optSemesterF">Semester:&nbsp;</label>
+				<input id="optSemesterF" name="optSemester" type="radio" tabindex="3" value="F" required="required">Fall 
+				<input id="optSemesterW" name="optSemester" type="radio" tabindex="5" value="W">Winter 
+				<input id="optSemesterS" name="optSemester" type="radio" tabindex="7" value="S">Spring/Summer
+			<br><label id="shortLabel" for="lstYears">Year:&nbsp;</label>
+				<select id="lstYears" name="lstYears" tabindex="9">
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					<option value="2022">2022</option>
+					<option value="2022">2022</option>
+					<option value="2023">2023</option>
+				</select>
+			<br><label id="shortLabel" for="txtInstructor">Instructor:&nbsp;</label>
+				<input id="txtInstructor" name="txtInstructor" type="text" tabindex="11" required="required" size="20">
+		</fieldset>
+		<fieldset>
+			<legend>Instructor</legend>
+			How would you rate the instructor's:
+			<p>
+			1. knowledge of subject?&nbsp;
+			<br>&nbsp;&nbsp;
+				<input name="optKnowledge" type="radio" tabindex="13" value="E" required="required">Excellent 
+				<input name="optKnowledge" type="radio" tabindex="15" value="G">Good 
+				<input name="optKnowledge" type="radio" tabindex="17" value="F">Fair
+				<input name="optKnowledge" type="radio" tabindex="17" value="NS">Not Satisfactory
+			<br>2. helpfulness?&nbsp;
+			<br>&nbsp;&nbsp;
+				<input name="optHelpfulness" type="radio" tabindex="19" value="E" required="required">Excellent 
+				<input name="optHelpfulness" type="radio" tabindex="21" value="G">Good 
+				<input name="optHelpfulness" type="radio" tabindex="23" value="F">Fair
+				<input name="optHelpfulness" type="radio" tabindex="25" value="NS">Not Satisfactory
+			<br>3. courtesy and respect for all students?&nbsp;
+			<br>&nbsp;&nbsp;
+				<input name="optCourtesy" type="radio" tabindex="27" value="E" required="required">Excellent 
+				<input name="optCourtesy" type="radio" tabindex="29" value="G">Good 
+				<input name="optCourtesy" type="radio" tabindex="31" value="F">Fair
+				<input name="optCourtesy" type="radio" tabindex="33" value="NS">Not Satisfactory
+			<br>4. communication skills?&nbsp;
+			<br>&nbsp;&nbsp;
+				<input name="optCommunication" type="radio" tabindex="35" value="E" required="required">Excellent 
+				<input name="optCommunication" type="radio" tabindex="37" value="G">Good 
+				<input name="optCommunication" type="radio" tabindex="39" value="F">Fair
+				<input name="optCommunication" type="radio" tabindex="41" value="NS">Not Satisfactory
+			<br>5. overall performance?&nbsp;
+			<br>&nbsp;&nbsp;
+				<input name="optPerformance" type="radio" tabindex="43" value="E" required="required">Excellent 
+				<input name="optPerformance" type="radio" tabindex="45" value="G">Good 
+				<input name="optPerformance" type="radio" tabindex="47" value="F">Fair
+				<input name="optPerformance" type="radio" tabindex="49" value="NS">Not Satisfactory
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Course</legend>
+			6. How would you rate the course materials?&nbsp;
+			<br>&nbsp;&nbsp;
+				<input name="optCourseMaterial" type="radio" tabindex="51" value="E" required="required">Excellent 
+				<input name="optCourseMaterial" type="radio" tabindex="53" value="G">Good 
+				<input name="optCourseMaterial" type="radio" tabindex="55" value="F">Fair
+				<input name="optCourseMaterial" type="radio" tabindex="57" value="NS">Not Satisfactory
+			<br>7. How much did this course meet your expectations?&nbsp;
+			<br>&nbsp;&nbsp;
+				<input name="optExpectation" type="radio" tabindex="59" value="E" required="required">Excellent 
+				<input name="optExpectation" type="radio" tabindex="61" value="G">Good 
+				<input name="optExpectation" type="radio" tabindex="63" value="F">Fair
+				<input name="optExpectation" type="radio" tabindex="65" value="NS">Not Satisfactory
+			<br>8. How would you rate this course (overall)?&nbsp;
+			<br>&nbsp;&nbsp;
+				<input name="optRate" type="radio" tabindex="67" value="E" required="required">Excellent 
+				<input name="optRate" type="radio" tabindex="69" value="G">Good 
+				<input name="optRate" type="radio" tabindex="71" value="F">Fair
+				<input name="optRate" type="radio" tabindex="73" value="NS">Not Satisfactory
+		</fieldset>
+		<fieldset>
+			<legend>General Information</legend>
+			9. Was the course outline reviewed/explained at the beginning of your course?&nbsp;
+			<br>&nbsp;&nbsp;
+				<input name="optOutlineExplanation" type="radio" tabindex="75" value="Y" required="required">Yes
+				<input name="optOutlineExplanation" type="radio" tabindex="77" value="N">No 
+				<input name="optOutlineExplanation" type="radio" tabindex="79" value="NS">Not Sure
+			<br>10. Would you recommend this course to a friend with the same interests?&nbsp;
+			<br>&nbsp;&nbsp;
+				<input name="optRecommendation" type="radio" tabindex="81" value="Y" required="required">Yes
+				<input name="optRecommendation" type="radio" tabindex="83" value="N">No 
+				<input name="optRecommendation" type="radio" tabindex="85" value="NS" required="required">Not Sure
+		</fieldset>
+		<fieldset>
+			<legend>Any Other Comments</legend>
+			<label for="txtBestThing">11. What is the best thing about this course?&nbsp;</label>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea id="txtBestThing" cols="60" name="txtBestThing" rows="3" tabindex="87" required="required"></textarea>
+			<br><label for="txtImproving">12. How could we improve this course?&nbsp;</label>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea id="txtImproving" cols="60" name="txtImproving" rows="3" tabindex="89" required="required"></textarea>
+			<br><label for="txtOther">13. Other:&nbsp;</label>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea id="txtOther" cols="60" name="txtOther" rows="3" tabindex="91"></textarea>
+		</fieldset>
+		<p id="centered">
+		<input name="btnSubmit" tabindex="93" type="submit" value="Submit this Survey">
+		<input name="btnReset" tabindex="95" type="reset" value="Clear Form">
+		</p>
+	</form>
+	<p id="centered">
+	<strong>Thank you!</strong>
+	<br>We pay attention to your feedback!
+	<br>Web: <a href="https://humber.ca/">humber.ca</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail:<a href="mailto:enquiry1@humber.ca">enquiry1@humber.ca
+	</a> 
+	</p>
+	</main>
+	<hr>
+	<footer>
+		<p id="copyright">©&nbsp;Copyright Younga Jin #301055699 COMP213 - Assignment 4</p>
+	</footer>
+</div>
+</body>
+
+</html>

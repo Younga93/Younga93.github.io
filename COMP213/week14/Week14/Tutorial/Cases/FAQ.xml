@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!-- ScanMaster and DigiCam FAQ -->
+<?xml-stylesheet type="text/css" href="FAQ.css" ?>
+
+<FAQ>
+<title>Jackson Electronics Products</title>
+<subtitle>Frequently Asked Questions</subtitle>
+
+<product>The ScanMaster</product>
+
+<question>How do I scan slides?</question>
+<answer>
+<![CDATA[
+"You can scan slides using the JE Transparency Adapter (part number STA8901) available from
+Jackson Electronics."
+]]>
+</answer>
+
+<question>Where can I find the latest drivers for my ScanMaster?</question>
+<answer>
+<![CDATA[
+"You can download the latest software drivers from the Jackson Electronics Web page."
+]]>
+</answer>
+
+<question>What is the largest sheet that I can scan?</question>
+<answer>
+<![CDATA[
+"8.5 x 14 in (216 x 356 mm)."
+]]>
+</answer>
+
+<question>How do I fax with my ScanMaster?</question>
+<answer>
+<![CDATA[
+"You can turn your scanner into a fax machine by purchasing the FaxRight add-on component
+(part number STA4500) available from Jackson Electronics."
+]]>
+</answer>
+
+
+<product>DigiCam</product>
+
+<question>What is the difference between optimal and digital zoom?</question>
+<answer>
+<![CDATA[
+"With optical zoom the Digicam's lense phyiscal moves inside the camera; with digital zoom, the
+camera's 'electronic brain' zooms the image. If you zoom too much, your image will become
+pixelated."
+]]>
+</answer>
+
+<question>What sort of batteries should I use with the DigiCam?</question>
+<answer>
+<![CDATA[
+"Nickel Metal Hydride (NiMH) batteries work the best and having the longest lifetime. Nickel-Cadium
+batteries also work very well as do Alkaline batteries. Do not use Lithium batteries."
+]]>
+</answer>
+
+<question>What resolution should I use for 4x6 in. photos?</question>
+<answer>
+<![CDATA[
+"We recommend 640x480 for 4x6 images, 1024x768 for 5x7 in. photos, and 1600x1200 for 8x10 in
+photos."
+]]>
+</answer>
+
+<question>Can the DigiCam be harmed by airport X-ray machines?</question>
+<answer>
+<![CDATA[
+"No, there is no evidence that X-ray machines can affect the performance or quality of
+DigiCam photos."
+]]>
+</answer>
+</FAQ>

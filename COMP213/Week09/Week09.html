@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<!--Created by: Younga Jin - Created on: Nov 11, 2019-->
+<html lang="en">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Week 09 Class Example</title>
+<meta content="HTML form, COMP213" name="keywords">
+<meta content="Example of using HTML forms." name="description">
+<link href="Week09Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="allPage">
+
+<header>
+	<h1>Centennial College - Registration From</h1>
+</header>
+
+<main>
+content
+<form action="mailto:jdoe27@my.centennialcollege.ca" method="post">
+	<table style="width: 100%">
+		<tr>
+			<td>First Name: </td>
+			<td> <input name="txtFirstName" type="text" size="25" tabindex="1" /></td>
+		</tr>
+		<tr>
+			<td>Last Name:&nbsp; </td>
+			<td> <input name="txtLastName" type="text" size="25" tabindex="3" /></td>
+		</tr>
+		<tr>
+			<td>Email:</td>
+			<td> <input name="txtEmail" type="text" size="30" tabindex="5" /></td>
+		</tr>
+		<tr>
+			<td>Create PWD:</td>
+			<td> <input name="txtCreatePwd" type="password" size="16" tabindex="7" /></td>
+		</tr>
+		<tr>
+			<td>Confrim PWD:</td>
+			<td> <input name="txtConfirmPwd" type="password" size="16" tabindex="9" /></td>
+		</tr>
+		<tr>
+			<td>Gender:</td>
+			<td> 	
+			<input name="optGender" type="radio" tabindex="11" value="M" checked="true" />M 
+			<input name="optGender" type="radio" tabindex="13" value="F" />F 
+			<input name="optGender" type="radio" tabindex="15" value="X" />X</td>
+		</tr>
+		<tr>
+			<td>Education:</td>
+			<td> 	
+			<input name="optEd" type="radio" tabindex="17" value="Sec" checked="true" />Secondary
+		 	<input name="optEd" type="radio" tabindex="19" value="Col"/>College 
+		 	<input name="optEd" type="radio" tabindex="21" value="UGrad"/>UGrad 
+		 	<input name="optEd" type="radio" tabindex="23" value="Grad" />Gad
+		 	<input name="optEd" type="radio" tabindex="25" value="PGrad" />PGrad</td>
+		</tr>
+		<tr>
+			<td>Computer Knowledge:</td>
+			<td> 	
+			<input name="chkOS1" type="checkbox" tabindex="27" value="OS">OS 
+			<input name="chkOS2" type="checkbox" tabindex="29" value="Networking" />Networking 
+			<input name="chkOS3" type="checkbox" tabindex="31" value="Programming" />Programming 
+			<input name="chkOS4" type="checkbox" tabindex="33" value="Web Design" />Web Design 
+			<input name="chkOS" type="checkbox" tabindex="35" value="DB" />DB</td>
+		</tr>
+		<tr>
+			<td>Selcet Courses:</td>
+			<td> 
+	<select name="lstCourses" multiple="multiple" size="4" tabindex="37">
+				<option value="COMP100">COMP100 - Programming I</option>
+				<option value="COMP125">COMP125 - Client Side Development</option>
+				<option value="COMP213">COMP213 - Web Interface Design</option>
+				<option value="COMP225">COMP225 Systems I</option>
+				<option value="COMP229">COMP229 - Sever Side Development</option>
+				</select></td>
+		</tr>
+		<tr>
+			<td>Special Requests:</td>
+			<td> 
+	<textarea cols="50" name="txtSpecialRequests" rows="7" tabindex="39">---Please let us know about your special learning needs (note taking, closed captioning, etc.)---</textarea></td>
+		</tr>
+		<tr>
+			<td>
+<input name="btnSubmit" type="submit" value="Register Now" tabindex="41" /> </td>
+			<td>
+			<input name="btnReset" tabindex="43" type="reset" value="Clear Form"></td>
+		</tr>
+	</table></form>
+&nbsp;</main><footer>
+<p id="copyright">&copy;&nbsp;Copyright Younga Jin - Week 09 - COMP213</p>
+</footer>
+</div>
+</body>
+
+</html>

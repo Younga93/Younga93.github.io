@@ -1,0 +1,75 @@
+﻿h1 {
+	background-image: url('images/trilliumminibanner.jpg');
+	background-repeat: no-repeat;
+	height: 73px;
+	background-color: #D5ECB3;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	font-size: 3em;
+	font-weight: 900;
+	color: #5C743D;
+	padding-left: 130px;
+	padding-top: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #666666;
+	text-shadow: 3px 3px 3px #666;
+}
+body {
+	background-size: 100% 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	background-image: url('images/nature-background.jpg');
+	background-repeat: no-repeat;
+}
+h2 {
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #5C743D;
+	background-color: #D5ECB3;
+	background-image: url('images/trilliumbg.gif');
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #666666;
+}
+ul {
+	list-style-image: url('images/trillium.gif');
+}
+footer {
+	color: white;
+	background-color: #5C743D;
+	background-image: url('images/trilliumfoot.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+	height: 80px;
+	padding: 4px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #666666;
+}
+footer a {
+	color: white;
+	text-decoration: none;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+footer a:hover {
+	color: #5C743D;
+	text-decoration: none;
+	background-color: #D5ECB3;
+}
+#copyright {
+	font-size: x-small;
+}
+#allPage {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #EDE776;
+	padding: 10px;
+	border-radius: 10px;
+	opacity: 0.85;
+}
+nav img {
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #666666;
+}
