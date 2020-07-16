@@ -1,30 +1,19 @@
 ﻿/*
 	Younga Jin
 */
-
-#header_img{
-	max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0px auto;
-
-}
-
-nav {
+#allPage{
 	text-align: center;
 }
 
-nav a:hover{
-	background-color: white;
-	color: black;
-}
+#backgroud-img{
+	height:720px;
+	background-image: url('../img/jump.JPG');
+	background-repeat: no-repeat;
+	background-attachment:scroll;
+	background-position: center;
 
-nav a:visited{
-	background-color: black;
-	color: white;
 }
 
 body{
 	color: white;
-	background-color:black;
 }
