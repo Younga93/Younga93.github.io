@@ -1,0 +1,42 @@
+﻿body {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategrey;
+    background-color: #FFFFEE;
+}
+
+label {
+    font-weight: 700;
+    width: 150px;
+    text-align: right;
+    float: left;
+    color: darkslategrey;
+}
+
+h1 {
+    border-radius: 10px;
+    margin: auto;
+    padding-top: 10px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-variant: small-caps;
+    color: #001F4D;
+    background-color: #DDB305;
+    height: 50px;
+    text-align: center;
+}
+
+legend {
+    font-variant: small-caps;
+    color: #001F4D;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#allPage {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    border: medium solid #10113F;
+    border-radius: 15px;
+    padding: 10px;
+}

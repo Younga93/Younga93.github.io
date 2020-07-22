@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--Younga Jin #301055699 COMP125-->
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>New Order</title>
+   <link rel="stylesheet" href="neworderCss.css">
+</head>
+
+<body>
+   <header>
+      <h1>
+        New Order
+      </h1>
+   </header>
+
+   <article>
+      <h2>Lunch Order Selections</h2>
+      <form>
+         <input type="checkbox" id="item1" value="1399">
+         <label for="item1">Pineapple pizza ($13.99)</label> <br>
+         <input type="checkbox" id="item2" value="1299">
+         <label for="item2">Beef curry ($12.99)</label><br>
+         <input type="checkbox" id="item3" value="1099">
+         <label for="item3">Hamburger ($10.99)</label><br>
+         <input type="checkbox" id="item4" value="899">
+         <label for="item4">Poutine ($8.99)</label><br>
+         <input type="checkbox" id="item5" value="999">
+         <label for="item5">Chicken Salad ($9.99)</label><br>
+         <input type="button" value="Calculate" id="sButton">
+      </form>
+      <table>
+         <tbody>
+            <tr>
+               <td class="tableTitle">Item total</td>
+               <td class="result">0.00</td>
+            </tr>
+            <tr>
+               <td class="tableTitle">Tax</td>
+               <td class="result">0.00</td>
+            </tr>
+            <tr>
+               <td class="tableTitle">Total with tax</td>
+               <td class="result">$0.00</td>
+            </tr>
+         </tbody>
+      </table>
+   </article>
+   <script src="Neworder.js"></script>
+</body>
+</html>

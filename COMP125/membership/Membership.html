@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--Younga Jin #301055699 COMP125-->
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<link href="membershipCss.css" rel="stylesheet" />
+<title>Mebmership</title>
+</head>
+
+<body>
+    <h1>Member Registration</h1>
+    <br>
+    <form novalidate="novalidate">
+        <!--Membership Registration Fieldset-->
+        <fieldset id="memReg">
+            <legend>Complete all the fields</legend>
+            <div id="errorText"></div> 
+            <!--First Name-->
+            <label for="firstName">First Name&nbsp;</label>
+            <input id="firstName" name="firstName" type="text" required="required" placeholder="First Name" />
+            <!--Last Name--> <br>
+            <label for="lastName">Last Name&nbsp;</label>
+            <input id="lastName" name="lastName" type="text" required="required" placeholder="Last Name" />
+            <!--Address--> <br>
+            <label for="address">Address&nbsp;</label>
+            <input id="address" name="address" type="text" required="required" placeholder="Address" />
+            <!--City--> <br>
+            <label for="city">City&nbsp;</label>
+            <input id="city" name="city" type="text" required="required" placeholder="City" />
+            <!--Postal Code--> <br>
+            <label for="postCode">Postal Code&nbsp;</label>
+            <input id="postCode" name="postCode" type="text" required="required" placeholder="Postal Code" />
+            <!--Province--> <br>
+            <label for="province">Province&nbsp;</label>
+            <input id="province" name="province" type="text" required="required" placeholder="Province" />
+            <!--Age--> <br>
+            <label for="age">Age&nbsp;</label>
+            <input id="age" name="age" type="text" required="required" placeholder="Age" />
+            <!--Password--> <br>
+            <label for="password">Password&nbsp;</label>
+            <input id="password" name="password" type="password" required="required" placeholder="Password" />
+            <!--Confirm--> <br>
+            <label for="confirm">Confirm&nbsp;</label>
+            <input id="confirm" name="confirm" type="password" required="required" placeholder="Password Confirm" />
+            <!--Email--> <br>
+            <label for="email">Email&nbsp;</label>
+            <input id="email" name="email" type="text" required="required" placeholder="Email" />
+        </fieldset>
+        <input id="registerBtn" name="registerBtn" type="submit" value="Register Now"/>
+        <input id="clearBtn" name="clearBtn" type="button" value="Clear Form"/>
+    </form>
+    
+    <!--User Profile Display-->
+    <section id="profile">
+        <fieldset>
+            <legend>Profile</legend>
+        <div id="usernameSection">
+            <label>User Name</label>
+            <p id="profileUsername"><br></p>
+        </div>
+        <div id="addressSection">
+            <label>Address</label>
+            <p id="profileAddress"><br> </p>
+        </div>
+        <div id="citySection">
+            <label>City</label>
+            <p id="profileCity"> <br></p>
+        </div>
+        <div id="postcodeSection">
+            <label>Postal Code</label>
+            <p id="profilePostcode"><br> </p>
+        </div>
+        <div id="provinceSection">
+            <label>Province</label>
+            <p id="profileProvince"> <br></p>
+        </div>
+        <div id="ageSection">
+            <label>Age</label>
+            <p id="profileAge"><br> </p>
+        </div>
+        <div id="emailSection">
+            <label>Email address</label>
+            <p id="profileEmail"><br> </p>
+        </div>
+    </fieldset>
+    </section>
+    <br><br><br><br><br><br><br><br><br>
+    <p id="copyright">&copy;&nbsp;Copyright Younga Jin #301055699 COMP125 - Assignment 4</p>
+    <script src="Membership.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Metric BMR Calculator</title>
+    <link href="BMR.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div id="allPage">
+        <form method="POST" action="javascript:void(0);" >
+            <h1>Basal Metabolic Rate (BMR) Calculator</h1>
+            <fieldset>
+                <legend>Basic Information</legend>
+
+                <label>Gender&nbsp;</label>
+                <select name="lstGenders" id="lstGenders">
+                    <option value="Female" selected>Female</option>
+                    <option value="Male">Male</option>
+                </select>
+                <br />
+
+                <label>Age&nbsp;</label>
+                <input name="txtAge" id="txtAge" type="number" min="1" max="150" required />
+                <br />
+
+                <label>Measurements&nbsp;</label>
+                <input name="btnMetric" id="btnMetric" type="button" value="Metric" />
+                <input name="btnImperial" id="btnImperial" type="button" value="Imperial" /> Choose units of measurements
+                <br />
+                <div id="displayUnits">
+                    <label> Height&nbsp;</label>
+                    <input name="txtCM" id="txtCM" type="number" min="1" max="300" required/> cm<br />
+                    <label>Weight&nbsp;</label>
+                    <input name="txtKG" id="txtKG" type="number" min="1" max="300" required/> kg<br />
+                </div>
+
+            </fieldset>
+            <fieldset>
+                <legend>Activity Level</legend>
+                <input name="activityLevel" id="optSedentary" type="radio" required/>I am sedentary (little or no exercise) <br>
+                <input name="activityLevel" id="optLightly" type="radio" />I am lightly active (light exercise or sports 1-3 days per week) <br>
+                <input name="activityLevel" id="optModerately" type="radio" />I am moderately active (moderate exercise or sports 3-5 days per week) <br>
+                <input name="activityLevel" id="optVery" type="radio" />I am very active (hard exercise or sports 6-7 days per week) <br>
+                <input name="activityLevel" id="optSuper" type="radio" />I am super active (very hard evercise or sports and a physical job or 2x training) <br>
+            </fieldset>
+            
+            <!--            <td>GENDER>> change this to radio options</td>
+                    <td>
+                        <select name="lstGender" tabindex="1">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                        </select>
+                    <td>AGE</td>
+                    <td><input name="txtAge" type="text" /></td>
+                </tr>
+                <tr>
+                    <td>STONES</td>
+                    <td><input name="txtStones" type="text" /></td>
+                    <td>POUNDS</td>
+                    <td><input name="txtPounds" type="text" /></td>
+                </tr>
+            </table>-->
+
+            <fieldset>
+                <legend>BMR Result</legend>
+                <div id="txtBMR"></div>
+                <input name="btnCalculate" id="btnCalculate" type="submit" value="Calculate BMR" />
+
+            </fieldset>
+        </form>
+    </div>
+
+
+    <script src="BMR.js"></script>
+</body>
+</html>

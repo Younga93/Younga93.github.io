@@ -1,0 +1,29 @@
+﻿body {
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+li {
+    display: inline-block;
+    color: whitesmoke;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a {
+    color: whitesmoke;
+    padding: 14px 16px;
+    background-color: midnightblue;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: whitesmoke;
+    color: midnightblue;
+}

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <title>Younga Jin</title>
+</head>
+<body>
+    <nav>
+        <ul id="topnav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="neworder/Neworder.html">Order</a></li>
+            <li id="cal"><a>Schedule</a></li>
+            <li><a href="BMR/BMR.html">BMR</a></li>
+            <li><a href="login/login.html">Login</a></li>
+            <li><a href="membership/Membership.html">Sign up</a></li>
+        </ul>
+    </nav>
+    <br><br><br>
+    
+    <script src="appendList.js"></script>
+    <script src="schedule.js"></script>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/33d25126d56/seogwipo-si/" data-label_1="SEOGWIPO" data-label_2="WEATHER" data-theme="original" >SEOGWIPO WEATHER</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
+    <div id="openweathermap-widget-9"></div>
+    <script>window.myWidgetParam ? window.myWidgetParam : window.myWidgetParam = [];  window.myWidgetParam.push({id: 9,cityid: '1846266',appid: 'b5074028acb6d0f8d209dced073df1a8',units: 'metric',containerid: 'openweathermap-widget-9',  });  (function() {var script = document.createElement('script');script.async = true;script.charset = "utf-8";script.src = "//openweathermap.org/themes/openweathermap/assets/vendor/owm/js/weather-widget-generator.js";var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(script, s);  })();</script>
+</body>
+</html>
+<!--
+    http://api.openweathermap.org/data/2.5/forecast?id=524901&APPID=b5074028acb6d0f8d209dced073df1a8
+    http://api.openweathermap.org/data/2.5/weather?q=Jeju&appid=b5074028acb6d0f8d209dced073df1a8
+-->
